@@ -2,9 +2,9 @@ spring:
   freemarker:
     cache: true
   datasource:
-    url: jdbc:mysql://localhost/pybbs?useSSL=false&characterEncoding=utf8
-    username: root
-    password: 123123
+    url: jdbc:mysql://sqld.duapp.com:4050/AedNMokbzXfmRxRZOQfF?useSSL=false&characterEncoding=utf8
+    username: aaa261f14f8d43848fda01b069966703
+    password: 7256889e2546411da63c80463b3d8871
   jpa:
     database: mysql
     show-sql: true
@@ -13,18 +13,15 @@ spring:
   mvc:
     static-path-pattern: /static/**
 site:
-  name: 朋也社区
-  intro: <h5>属于Java语言的bbs</h5><p>在这里，您可以提问，回答，分享，诉说，这是个属于Java程序员的社区，欢迎您的加入！</p>
-  baseUrl: http://localhost:8080/
-  staticUrl: http://localhost:8080/
+  name: 水田社区
+  intro: <h5>水田社区</h5><p>在这里，您可以提问，回答，分享，诉说，欢迎您的加入！</p>
+  baseUrl: http://stluntan.duapp.com/
+  staticUrl: http://stluntan.duapp.com/
   pageSize: 20
   uploadPath: /Users/tomoya/git/github/pybbs/target/classes/static/images/upload/
   sections:
-    - 分享
-    - 问答
-    - 新闻
-    - 博客
-    - 招聘
+    - K歌助理
+    - 水田云
   theme: bootstrap
   editor: markdown # 支持两种，1. markdown 2. wangeditor
   search: true
