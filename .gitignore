@@ -21,3 +21,4 @@ out/
 .factorypath
 .settings
 
+/src/main/resources/application.yml
