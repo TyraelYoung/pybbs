@@ -1,0 +1,27 @@
+spring:
+  freemarker:
+    cache: true
+  datasource:
+    url: jdbc:mysql://localhost/pybbs?useSSL=false&characterEncoding=utf8
+    username: xxx
+    password: yyy
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  mvc:
+    static-path-pattern: /static/**
+site:
+  name: 水田社区
+  intro: <h5>水田社区</h5><p>在这里，您可以提问，回答，分享，诉说，欢迎您的加入！</p>
+  baseUrl: http://bbs.tyrael.wang/
+  staticUrl: http://bbs.tyrael.wang/
+  pageSize: 20
+  uploadPath: /Users/tomoya/git/github/pybbs/target/classes/static/images/upload/
+  sections:
+    - K歌助理
+    - 水田云
+  theme: bootstrap
+  editor: markdown # 支持两种，1. markdown 2. wangeditor
+  search: true
